@@ -4,8 +4,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 public class Javamap {
-
-	public static void main(String[] args) {
+        public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
         HashMap<String, Integer> map=new HashMap();
         int n=sc.nextInt();
@@ -26,10 +25,6 @@ public class Javamap {
                 System.out.println("Not found");
             }
         }
-        
         sc.close();
-		
-
 	}
-
-}
+        }
